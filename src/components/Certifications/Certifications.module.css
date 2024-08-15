@@ -1,0 +1,78 @@
+@import "../../vars.css";
+.main{
+  padding-top: 1px;
+  margin: 0px;
+}
+.container {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+}
+.container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0px 30px rgb(17, 70, 215);
+}
+.title {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--color-primary);
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden; /* Ensure only the visible part of the slider is shown */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sliderWrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.cardWrapper {
+  min-width: 100%; /* Each card takes up the full width of the slider */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.controlButton {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  border: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 0 15px;
+}
+
+.controlButton:hover {
+  background-color: var(--color-primary-dark);
+  transform: scale(1.1);
+  color: whitesmoke;
+}
+
+@media  screen and (max-width: 830px){
+  .container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0px 15px rgb(17, 70, 215);
+  }
+}

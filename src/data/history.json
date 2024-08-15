@@ -1,0 +1,30 @@
+[
+  {
+    "role": "Web developer Intern",
+    "organisation": "Zidio Development",
+    "startDate": "Aug, 2024",
+    "endDate": "Sep, 2024",
+    "experiences": ["Contributed to the development and enhancement of the applications", 
+    "Reduced load times by 50%","Assisted in designing and implementing user interfaces using HTML, CSS, JavaScript and React",
+    "Collaborated on the backend development and improving functionality of websites with Node.js and Express.js",
+    "Integrated third-party APIs and services to improve website functionality",
+    "Integrated databases and data storage solutions with MongoDB for efficient database management",
+    "Assisted in the development of a new website for the organization, which increased their online presence and revenue by 30%"],
+    "imageSrc": "history/zidio.png"
+  },
+  {
+    "role": "MERN stack developement and Data Structures & Algorithms Training",
+    "organisation": "The Ikigai Lab",
+    "startDate": "Jul, 2024",
+    "endDate": "Aug, 2024",
+    "experiences": [
+      "It was a training based internship where I learned about web development and worked on real-world projects",
+      "Contributed to the development and enhancement of the applications", 
+      "Learned Data Structures and Algorithms and how to implement them in real-world projects",
+      "Collaborated on the development of projects including the frontend and backend development and improved functionalities of websites with Node.js and Express.js",
+      "Integrated third-party APIs and services to improve website functionality",
+      "Integrated databases and data storage solutions with MongoDB for efficient database management",
+      "Assisted in the development of a new website for the organization, which increased their online presence and revenue by 30%"],
+    "imageSrc": "history/ikigai.png"
+  }
+]

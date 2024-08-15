@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Developing Back-End apps with Node.js and Express, IBM",
+    "imageSrc": "certificates/backend.png",
+    "description": "Create server-side applications using the Node.js JavaScript run time. Extending Node.js applications with third-party packages and frameworks, including Express. Use npm to manage Node.js packages in Node.js application. Develop asynchronous callback functions and promises to complete asynchronous operations.",
+    "skills": ["Express", "Node"],
+    "credentials": "https://www.coursera.org/account/accomplishments/verify/FTFVZP5WU3CV"
+  },
+  {
+    "title": "Developing Front-End apps with React, IBM",
+
+    "imageSrc": "certificates/react.png",
+    "description": ["Develop interactive user interfaces (UIs) and web applications using JavaScript technologies including React, JSX, and ES6.",
+                    "Build dynamic front-end applications quickly and easily with reusable React components",
+                    "Employ various React concepts and features, including props, states, hooks, forms, and Redux.",
+                    "Use React Router to navigate through the application and manage browser history."],
+    "skills": ["Frontend development","React"],
+    "credentials": "https://www.coursera.org/account/accomplishments/verify/P5CJMZ4DGSAQ"
+  },
+  {
+    "title": "Learn JavaScript, Scrimba",
+    "imageSrc": "certificates/javascript.png",
+    "description": ["Learned the basics of the JavaScript programming language, like variables, data types, functions, loops, conditionals, and more.",
+                    "Learned how to use JavaScript to build real-world web apps",
+                    "Explored how to use professional software development tools for coding, collaboration, and deployment "],
+    "skills": ["JavaScript"],
+    "credentials": "https://www.coursera.org/account/accomplishments/verify/MGC7LBPHZQMD"
+  },
+  {
+    "title": "Crash Course on Python, Google",
+    "imageSrc": "certificates/python.png",
+    "description": ["Understand what Python is and why Python is relevant to automation",
+                    "Write short Python scripts to perform automated actions",
+                    "Understand how to use the basic Python structures: strings, lists, and dictionaries",
+                    "Create your own Python objects"],
+    "skills": ["Python"],
+    "credentials": "https://www.coursera.org/account/accomplishments/verify/CLGJ8DSMWE4R"
+  },
+  {
+    "title": "Agile Software Development, Chegg Inc.",
+    "imageSrc": "certificates/agile.png",
+    "description": ["Learned the principles and practices of Agile software development.",
+                    "Understand the Agile software development lifecycle.", 
+                    "Learned how to estimate and plan Agile projects.", 
+                    "Learned how to build and manage an Agile team."],
+    "skills": ["Agile Methodologies","Agile Application Development","Agile Project Management"],
+    "credentials": "https://www.linkedin.com/in/vinay-kumar-96820322a/details/certifications/"
+  },
+  {
+    "title": "Java Programming, Great Learning",
+    "imageSrc": "certificates/java.png",
+    "description": ["Learned the basics of Java programming language.",
+                    "Understand the Object-Oriented Programming concepts in Java.",
+                    "Learned how to use Java to build real-world applications.",
+                    "Explored how to use professional software development tools for coding, collaboration, and deployment."],
+    "skills": ["Java","Object-Oriented Programming"],
+    "credentials": "https://www.mygreatlearning.com/certificate/RRQXKUZJ"
+  },
+  {
+    "title": "Java(Basic), HackerRank",
+    "imageSrc": "certificates/java(basic).png",
+   "description": ["Completed assessment test of Java programming language."],
+    "skills": ["Java","Object-Oriented Programming"],
+    "credentials": "https://www.hackerrank.com/certificates/59a262c859fd"
+  },
+  {
+    "title": "Node and Express Essentials Badge, IBM",
+    "imageSrc": "certificates/nodeandexpress.png",
+    "description": ["Showcased the skills of creating server-side applications using the Node.js JavaScript run time.",
+                    "Explored the concepts of extending Node.js applications with third-party packages and frameworks, including Express.",
+                    "Showcased the skills of using npm to manage Node.js packages in Node.js application.",
+                    "Developed asynchronous callback functions and promises to complete asynchronous operations."],
+    "skills": ["Node.js","Express.js","npm","Asynchronous Programming","RESTful APIs"],
+    "credentials": "https://www.credly.com/badges/24cfc4f3-631e-4c90-a1dd-d87390ffc2f4/linked_in_profile"
+  }
+]

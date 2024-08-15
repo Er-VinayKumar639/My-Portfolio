@@ -1,0 +1,142 @@
+@import "../../vars.css";
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--color-secondary);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 400px;
+  }
+
+
+
+.imageContainer {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: var(--color-text);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: var(--color-text);
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.skill {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgb(55, 10, 191);
+  padding: 5px 12px;
+  box-shadow: 0 0 40px rgb(49, 124, 254);
+  border-radius: 20px;
+}
+
+.skill:hover {
+  background: var(--color-secondary);
+  cursor: pointer;
+}
+
+.sourceCode {
+  margin-top: 10px;
+}
+
+.sourceCodeLink {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid  rgb(30, 20, 112);;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background: var(--color-primary);
+  color: var(--color-background);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.sourceCodeLink:hover {
+  background:rgb(49, 124, 254);
+  color: var(--color-background);
+  border: 2px solid rgb(30, 20, 112);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .skill {
+    font-size: 12px;
+    padding: 4px 10px;
+    color: var(--color-background);
+  }
+
+  .sourceCode {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .skill {
+    font-size: 10px;
+    padding: 3px 8px;
+    color: var(--color-background);
+  }
+
+  .sourceCode {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+}
+
+

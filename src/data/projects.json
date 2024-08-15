@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Ultimate Object Hunt Game",
+    "imageSrc": "projects/objecthunt.png",
+    "description": "Developed a web-based educational game utilizing object detection technology using user’s camera to identify and validate specific objects.",
+    "skills": ["React", "Tailwind", "Django", "Python", "PostgreSQL", "ChatGPT API","JWT (JSON Web Tokens)", "daisyUI"],
+    "sourceCode": "https://github.com/Er-VinayKumar639/Ultimate-Object-Hunt-Game"
+  },
+  {
+    "title": "Utube-Play",
+    "imageSrc": "projects/utube.png",
+    "description": "This is a YouTube clone. It is a full-stack project that uses React and material UI for the front-end and uses RapidAPI for fetching data.",
+    "skills": ["React","HTML", "CSS","Material UI","RapidAPI"],
+    "sourceCode": "https://github.com/Er-VinayKumar639/Utube-Play"
+  },
+  {
+    "title": "URL Shortener",
+    "imageSrc": "projects/urlshortner.png",
+    "description": "This is a project made to learn MERN stack tools and technologies by building a website.",
+    "skills": ["Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JavaScript", "EJS"],
+    "sourceCode": "https://github.com/Er-VinayKumar639/URL-Shortner"
+  },
+  {
+    "title": "Wanderlust",
+    "imageSrc": "projects/project.png",
+    "description": "It is a travel planning and recommendation application that helps users to discover and organize personalized travel itineraries based on their preferences.",
+    "skills": ["Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JavaScript", "EJS","Google Map API", "JWT"],
+    "sourceCode": "https://github.com/Er-VinayKumar639/Wanderlust"
+  },
+  {
+    "title": "Rock Paper Scissors Game",
+    "imageSrc": "projects/rockpaper.png",
+    "description": "This is a funny project made to learn HTML, CSS and JavaScript by building a game application.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "sourceCode": "https://github.com/Er-VinayKumar639/MiniProject"
+  },
+  {
+    "title": "ATM-Interface",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the Java and OOPs fundamentals by creating an ATM-Interface. It has all the basic functionalities of an ATM machine like create account, login ,deposit, withdraw, check balance, etc.",
+    "skills": ["Java", "OOPs"],
+    "sourceCode": "https://github.com/Er-VinayKumar639/Utube-Play"
+  },
+  {
+    "title":"Currency Converter",
+    "imageSrc":"projects/currencyconverter.png",
+    "description":"This is a project made to learn the JavaScript fundamentals by building an app.",
+    "skills":["HTML","CSS","JavaScript"],
+    "sourceCode":"https://github.com/Er-VinayKumar639/WebDevPractice-/tree/main/Currency%20Converter"
+  }
+]

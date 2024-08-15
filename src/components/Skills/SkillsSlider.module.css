@@ -1,0 +1,128 @@
+@import "../../vars.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  padding-top: 1px;
+}
+body{
+  background-color: #f2f2f2;
+}
+.container:hover {
+  transform: translateY(-4px);
+  border-radius: 15px;
+  box-shadow: 0 0px 50px rgb(17, 70, 215);
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-500%);
+  }
+}
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+.images{
+  overflow: hidden;
+  display: flex;
+  padding: 20px;
+  background: var(--color-dark);
+}
+.imgBox{
+  display: block;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  background: var(--color-secondary);
+  color: var(--color-text);
+  text-transform: uppercase;
+  margin: 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 50px rgba(29, 99, 221, 0.909);
+  cursor: pointer;
+  animation: slide 10s linear infinite;
+}
+.imgBox img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.container {
+  color: var(--color-text);
+  margin: 30px auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 14px auto;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 50px auto;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+}
+
+.skillImageContainer img {
+  width: 50px;
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+
+@media  screen and (max-width: 830px){
+  .container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0px 15px rgb(17, 70, 215);
+  }
+}
