@@ -42,6 +42,8 @@
 }
 @media screen and (min-width: 830px){
   .menuBtn{
+    height: 24px;
+    width: 24px;
     display: none;
   }
   .menuItems {
@@ -80,6 +82,8 @@
 
   .menuBtn{
     display: block;
+    height: 24px;
+    width: 24px;
     cursor: pointer;  
   }
   .menuItems {
